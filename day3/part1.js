@@ -15,6 +15,7 @@ lowerCaseCharCodeList.reduce((list, code) => alphabetValuesSetter(list, code), f
 upperCaseCharCodeList.reduce((list, code) => alphabetValuesSetter(list, code), fullAlphabet);
 
 // input data
+const idElementSetter = document.getElementsByTagName("pre")[0].setAttribute("id", "test");
 const inputValues = document.getElementById("test").innerHTML;
 // const inputSample = 'gvNbShZZgQfWdQhdPQmggLTFLwmwjFqjVVgM\nCsJnHllcsnnnnJrGRnRwPPLVmFLHLBjFFVHmPT\nJlnCtctJnJDcJlDCRpPrSSQWfphzWZfbZSvfNfbS\nWjvRSdSQjvpjWzNlnZlNZqCCMzZZ';
 
